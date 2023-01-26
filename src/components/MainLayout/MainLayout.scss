@@ -1,0 +1,62 @@
+.ant-layout-sider {
+    .ant-layout-sider-children {
+        .logo {
+            background: #ffd333;
+            margin: 0;
+            height: 64px;
+
+            .sm-logo {
+                display: none;
+                transition: 0.3s;
+            }
+
+            .lg-logo {
+                display: block;
+                transition: 0.3s;
+            }
+        }
+
+        .ant-menu-title-content {
+            font-size: 16px;
+        }
+    }
+}
+
+.ant-layout-sider-collapsed {
+    .ant-layout-sider-children {
+        .logo {
+            .sm-logo {
+                display: block;
+            }
+
+            .lg-logo {
+                display: none;
+            }
+        }
+    }
+}
+
+.site-layout {
+    .ant-layout-header {
+        h5 {
+            line-height: 30px;
+            font-size: 14px;
+        }
+        p {
+            line-height: 20px;
+            font-size: 13px;
+        }
+    
+        .notification {
+            top: 16px;
+            right: -6px;
+        }
+    }
+
+    main.ant-layout-content {
+        overflow-y: scroll;
+        background: transparent !important;
+        height: 85vh;
+    }
+}
+
